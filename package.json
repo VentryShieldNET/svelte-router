@@ -23,8 +23,7 @@
     "build": "rollup -c",
     "dev": "rollup -cw",
     "prepublishOnly": "npm test",
-    "testWatch": "mocha --reporter min --watch --recursive --watch-files ./",
-    "test": "mocha -r esm"
+    "testWatch": "mocha --reporter min --watch --recursive --watch-files ./"
   },
   "author": "Jorge Alvarez <jorge@alvareznavarro.es>",
   "license": "MIT",
